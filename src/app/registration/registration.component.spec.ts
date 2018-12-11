@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RegistrationReactiveComponent } from './registration-reactive.component';
+import { RegistrationReactiveComponent } from './registration.component';
 
 describe('RegistrationReactiveComponent', () => {
   let component: RegistrationReactiveComponent;

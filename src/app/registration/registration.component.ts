@@ -9,12 +9,12 @@ import {isNumeric} from '../shared/validators/isNumeric';
 import {ZipService, Zip} from '../shared/service/zip.service';
 
 @Component({
-    selector: 'app-registration-reactive',
-    templateUrl: './registration-reactive.component.html',
-    styleUrls: ['./registration-reactive.component.scss'],
+    selector: 'app-registration',
+    templateUrl: './registration.component.html',
+    styleUrls: ['./registration.component.scss'],
     providers: [ZipService]
 })
-export class RegistrationReactiveComponent implements OnInit {
+export class RegistrationComponent implements OnInit {
 
     registForm = new FormGroup({
         displayName: new FormControl('', [Validators.required, registerRegex()]),

@@ -10,8 +10,8 @@ import { SentComponent } from './sent/sent.component';
         SentComponent
     ],
     imports: [
+        RegistrationRoutingModule,
         SharedModule,
-        RegistrationRoutingModule
     ]
 })
 export class RegistrationModule {

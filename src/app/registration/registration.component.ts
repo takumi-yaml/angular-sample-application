@@ -7,6 +7,8 @@ import {registerRegex} from '../shared/validators/register-regex';
 import {isSame} from '../shared/validators/isSame';
 import {isNumeric} from '../shared/validators/isNumeric';
 import {ZipService, Zip} from '../shared/service/zip.service';
+import {RegistrateService} from './registrate.service';
+import {Router} from '@angular/router';
 
 @Component({
     selector: 'app-registration',
@@ -46,8 +48,10 @@ export class RegistrationComponent implements OnInit {
     years = range(this._yearStart, this._yearEnd);
     months = range(1, 12);
     days: number[];
+    registrateErr = false;
+    errMsg: string;
 
-    constructor(private zipService: ZipService) {
+    constructor(private zipService: ZipService, private rs: RegistrateService, private router: Router) {
     }
 
     ngOnInit() {
@@ -57,7 +61,22 @@ export class RegistrationComponent implements OnInit {
     }
 
     onSubmit() {
-        console.log(this.registForm);
+        this.rs.registrate({
+            display_name: this.displayName.value,
+            password: this.password.value,
+            mail: this.mail.value,
+            birth_date: `${this.bd_year}-${this.bd_month}-${this.bd_day}`,
+            zip: this.zip.value,
+            address: `${this.ads1}${this.ads2}`,
+            tel: this.tel.value
+        }).subscribe((result) => {
+            console.log(result);
+            this.rs.registrated();
+            this.router.navigate(['/registration/sent']);
+        }, (err) => {
+            this.registrateErr = true;
+            this.errMsg = err.error.messages;
+        });
     }
 
     onChanges() {

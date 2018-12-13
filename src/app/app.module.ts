@@ -3,21 +3,19 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from '@angular/common/http';
 import {RegistrationModule} from './registration/registration.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
     declarations: [
         AppComponent,
+        PageNotFoundComponent,
     ],
     imports: [
-        RegistrationModule,
         BrowserModule,
-        ReactiveFormsModule,
-        FormsModule,
         HttpClientModule,
-        AppRoutingModule
+        AppRoutingModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

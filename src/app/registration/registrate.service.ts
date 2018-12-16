@@ -14,7 +14,7 @@ export class RegistrateService {
     constructor(private http: HttpClient) {
     }
 
-    registrate(data): Observable {
+    registrate(data): Observable<any> {
         return this.http.post(this.url, data).pipe(map(result => {
             return result;
         }));
@@ -28,7 +28,7 @@ export class RegistrateService {
         this.isRegistrate = false;
     }
 
-    getStatus(){
+    getStatus() {
         return this.isRegistrate;
     }
 

@@ -1,0 +1,31 @@
+<section class="row align-items-center login-wrap">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="col-4 mx-auto">
+        <h1 class="h5">ログイン</h1>
+        <hr>
+
+        <div *ngIf="errMsg" class="alert alert-danger">
+            {{ errMsg }}
+        </div>
+
+        <div class="form-group">
+            <input type="text" formControlName="mail" required placeholder="mail@example.com" class="form-control">
+
+            <p class="text-danger" *ngIf="mail.touched && mail.invalid">
+                <span *ngIf="mail.errors.required">メールアドレスを入力してください</span>
+                <span *ngIf="mail.errors.email">メールアドレスを正しく入力してください</span>
+            </p>
+        </div>
+        <div class="form-group">
+            <input type="password" formControlName="password" class="form-control" required>
+            <p class="text-danger" *ngIf="password.touched && password.invalid">
+                <span *ngIf="password.errors">パスワードを入力してください</span>
+            </p>
+        </div>
+
+        <div class="form-row">
+            <div class="col-ml6 mx-auto">
+                <button class="btn btn-primary w-100" [disabled]="loginForm.invalid || isSent">ログイン</button>
+            </div>
+        </div>
+    </form>
+</section>

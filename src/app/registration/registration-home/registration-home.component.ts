@@ -21,7 +21,7 @@ export class RegistrationHomeComponent implements OnInit {
     registForm = new FormGroup({
         displayName: new FormControl('', [Validators.required, registerRegex()]),
         pw: new FormGroup({
-            password: new FormControl('', [Validators.required, registerRegex()]),
+            password: new FormControl('', [Validators.required, Validators.minLength(8), registerRegex()]),
             password_conf: new FormControl('', Validators.required),
         }),
         ml: new FormGroup({
@@ -75,6 +75,7 @@ export class RegistrationHomeComponent implements OnInit {
             console.log(result);
             this.rs.registrated();
             this.router.navigate(['/registration/sent']);
+            this.isSent = true;
         }, (err) => {
             this.registrateErr = true;
             this.errMsg = err.error.messages;

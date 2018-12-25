@@ -1,0 +1,9 @@
+{
+  "id": "12345",
+  "display_name": "test",
+  "mail": "test@example.com",
+  "birth_date": "2000-01-01",
+  "zip": "0000000",
+  "address": "北海道札幌市中央区宮の森四条",
+  "tel": "0000000000"
+}

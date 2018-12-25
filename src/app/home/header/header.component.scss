@@ -1,0 +1,60 @@
+.site-header {
+  background: #393939;
+  color: #eaeaea;
+}
+
+.logo {
+  flex: 0 0 200px;
+  height: 60px;
+  background: url(/assets/logo.svg) -19px 50% no-repeat;
+  background-size: 106%;
+}
+
+.input {
+  flex: 0 0 200px;
+  margin-right: 2rem;
+}
+
+.link1 {
+  flex: 0 0 2rem;
+  color: #eaeaea;
+  margin-right: 2rem;
+}
+
+.link2 {
+  flex: 0 0 9rem;
+  color: #eaeaea;
+  margin-right: 2rem;
+}
+
+.link3 {
+  flex: 0 0 6rem;
+  color: #eaeaea;
+  margin-right: 2rem;
+}
+
+.private {
+  flex: 0 0 auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.user {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+}
+
+.mail-wrap {
+  margin-left: 2rem;
+  position: relative;
+  .mail {
+    font-size: 1.5em;
+  }
+  .badge{
+    position: relative;
+    top: -1rem;
+  }
+
+}

@@ -1,0 +1,39 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  preserveAspectRatio="none" width="300px" height="300px">
+    <path d="M30,180.01876v-60.03751h240v60.03751z" fill="none" stroke="#eaeaea" stroke-width="2.1"></path>
+    <g data-paper-data="{&quot;elementType&quot;:&quot;logo&quot;}" fill="#eaeaea" stroke="none" stroke-width="1">
+        <g data-paper-data="{&quot;elementType&quot;:&quot;text&quot;}">
+            <g data-paper-data="{&quot;baseline&quot;:63.1,&quot;elementType&quot;:&quot;row&quot;}">
+                <g data-paper-data="{&quot;baselineProportion&quot;:0.9843993759750391,&quot;fontSize&quot;:100,&quot;baseline&quot;:63.1,&quot;elementType&quot;:&quot;word&quot;}">
+                    <path d="M65.06721,159.70616h-5.22038l-0.59394,-3.06346h-3.68865l-0.59394,3.06346h-4.9703l3.56361,-19.41232h7.93998l3.56361,19.41232M58.65896,152.98531l-1.09409,-6.93967h-0.21882l-1.09409,6.93967z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M80.04064,159.70616h-5.1266l-4.03251,-9.03407h-0.25008v9.03407h-4.75148v-19.41232h5.2829l3.84495,9.31541h0.25008v-9.31541h4.78274z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M93.6699,146.0769c-2.00063,-0.60436 -3.46462,-0.90653 -4.392,-0.90653c-0.92737,0 -1.56299,0.40638 -1.90685,1.21913c-0.34386,0.81275 -0.51579,2.09961 -0.51579,3.86058c0,1.76097 0.16151,3.04262 0.48453,3.84495c0.32302,0.80233 0.98468,1.2035 1.985,1.2035c0.29176,0 0.85443,-0.08336 1.68803,-0.25008v-2.37574h-1.40669v-3.68865h5.97062v10.7221h-3.68865l-0.50016,-1.00031h-0.12504c-0.35428,0.29176 -0.63562,0.51058 -0.84401,0.65646c-0.58352,0.43764 -1.40669,0.65646 -2.46952,0.65646c-4.35553,0 -6.53329,-3.2927 -6.53329,-9.87809c0,-3.2927 0.5731,-5.80911 1.71929,-7.54923c1.14619,-1.74013 3.07388,-2.61019 5.78306,-2.61019c2.16734,0 4.03251,0.33344 5.5955,1.00031z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:63.1,&quot;baselineProportion&quot;:0.9843993759750391,&quot;fontSize&quot;:100}"></path>
+                    <path d="M102.86027,153.32917c0,0.64604 0.13546,1.12535 0.40638,1.43795c0.27092,0.3126 0.71376,0.4689 1.32854,0.4689c0.61478,0 1.04199,-0.15109 1.28165,-0.45327c0.23966,-0.30218 0.35949,-0.79712 0.35949,-1.48484v-13.00406h5.37668v13.31666c0,2.22986 -0.60957,3.85537 -1.8287,4.87652c-1.21913,1.02115 -3.01136,1.53173 -5.37668,1.53173c-2.36532,0 -4.12629,-0.50537 -5.2829,-1.5161c-1.15661,-1.01073 -1.73492,-2.62061 -1.73492,-4.82963v-13.37918h5.47046z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:0.9841521394611727,&quot;fontSize&quot;:100}"></path>
+                    <path d="M123.4292,159.70616h-9.87809v-19.41232h5.34542v15.06721h4.84526z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M137.99625,159.70616h-5.22038l-0.59394,-3.06346h-3.68865l-0.59394,3.06346h-4.9703l3.56361,-19.41232h7.93998l3.56361,19.41232M131.588,152.98531l-1.09409,-6.93967h-0.21882l-1.09409,6.93967z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M152.0944,146.45202c0,1.16703 -0.17714,2.13608 -0.53142,2.90716c-0.35428,0.77107 -0.90653,1.46921 -1.65677,2.0944l2.59456,8.25258h-5.78306l-1.93811,-7.00219h-0.71897v7.00219h-5.25164v-19.41232h7.25227c2.08398,0 3.6105,0.48974 4.57956,1.46921c0.96905,0.97947 1.45358,2.54246 1.45358,4.68897M144.8734,149.42169c0.54184,0 0.92737,-0.1563 1.15661,-0.4689c0.22924,-0.3126 0.34386,-0.88048 0.34386,-1.70366c0,-0.82317 -0.11462,-1.39627 -0.34386,-1.71929c-0.22924,-0.32302 -0.60436,-0.48453 -1.12535,-0.48453h-0.84401v4.37637z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M163.94186,159.70616h-10.50328v-19.41232h10.81588l-0.3126,4.78274h-5.15786v2.90716h4.47015v4.12629h-4.47015v3.21976h5.47046z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M178.94655,159.70616h-6.09565l-1.31291,-6.18943h-0.25008l-1.46921,6.18943h-5.7518l3.0322,-10.06565l-2.78212,-9.34667h6.31447l1.06283,5.7518h0.25008l1.15661,-5.7518h5.50172l-2.53204,9.34667z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M193.63864,159.70616h-5.22038l-0.59394,-3.06346h-3.68865l-0.59394,3.06346h-4.9703l3.56361,-19.41232h7.93998l3.56361,19.41232M187.23038,152.98531l-1.09409,-6.93967h-0.21882l-1.09409,6.93967z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M213.23851,159.70616h-4.90778v-10.12817h-0.28134l-1.84433,10.12817h-5.03282l-1.75055,-10.12817h-0.3126v10.12817h-4.84526l0.65646,-19.41232h7.03345l1.75055,10.50328h0.25008l1.68803,-10.50328h6.93967z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M221.67865,153.36043h-1.43795v6.34573h-5.25164v-19.41232h6.34573c2.22986,0 3.88663,0.51058 4.9703,1.53173c1.08367,1.02115 1.62551,2.69876 1.62551,5.03282c0,2.33406 -0.51058,4.00125 -1.53173,5.00156c-1.02115,1.00031 -2.59456,1.50047 -4.72023,1.50047M222.27259,149.14036c0,0 0.04689,-0.08857 0.14067,-0.26571c0.09378,-0.17714 0.14067,-0.72418 0.14067,-1.64114c0,-0.91695 -0.1042,-1.56299 -0.3126,-1.93811c-0.2084,-0.37512 -0.6252,-0.56268 -1.25039,-0.56268h-0.75023v4.93904h0.87527c0.58352,0 0.96905,-0.17714 1.15661,-0.53142z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M238.55892,159.70616h-9.87809v-19.41232h5.34542v15.06721h4.84526z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                    <path d="M249.6874,159.70616h-10.50328v-19.41232h10.81588l-0.3126,4.78274h-5.15786v2.90716h4.47015v4.12629h-4.47015v3.21976h5.47046z"
+                          data-paper-data="{&quot;elementType&quot;:&quot;letter&quot;,&quot;baseline&quot;:62.1,&quot;baselineProportion&quot;:1,&quot;fontSize&quot;:100}"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

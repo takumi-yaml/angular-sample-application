@@ -5,6 +5,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
     declarations: [
@@ -12,6 +13,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
         PageNotFoundComponent,
     ],
     imports: [
+        FontAwesomeModule,
         BrowserModule,
         HttpClientModule,
         AppRoutingModule,
